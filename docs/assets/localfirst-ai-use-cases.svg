@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" fill="none" role="img" aria-labelledby="projects-title projects-desc">
+  <title id="projects-title">Complete applications, costings and launch packages with LocalFirst-AI</title>
+  <desc id="projects-desc">Three project deliverables: an application with source files, tests and setup instructions; a costing workbook with inputs, formulas, scenarios and a PDF; and a launch package with research, a presentation, budget and tasks.</desc>
+  <defs><linearGradient id="projects-bg" x1="0" y1="0" x2="1400" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="#F2F8FD"/><stop offset="1" stop-color="#DFEDF8"/></linearGradient></defs>
+  <rect width="1400" height="820" rx="32" fill="url(#projects-bg)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="64" y="96" fill="#FFFFFF" font-size="44" font-weight="750">Complete work, not just an answer.</text>
+    <text x="64" y="142" fill="#48647C" font-size="26">Give an assistant the brief, the tools and the responsibility to finish.</text>
+    <g data-bounds="64 196 408 482">
+      <rect x="64" y="196" width="408" height="482" rx="24" fill="#FFFFFF"/>
+      <text x="92" y="244" fill="#18354D" font-size="30" font-weight="750">Application</text>
+      <rect x="92" y="278" width="352" height="148" rx="16" fill="#EAF3FA"/>
+      <rect x="114" y="302" width="98" height="98" rx="14" fill="#B8DFFD"/>
+      <path d="m144 324-22 27 22 27m35-54 22 27-22 27m-17-63-10 72" stroke="#18354D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="232" y="336" fill="#29485F" font-size="25" font-weight="700">Source files</text>
+      <text x="232" y="377" fill="#48647C" font-size="24">Tests + setup</text>
+      <text x="92" y="482" fill="#18354D" font-size="26" font-weight="700">Implement the features</text>
+      <text x="92" y="528" fill="#48647C" font-size="25">Build and repair failures</text>
+      <text x="92" y="570" fill="#48647C" font-size="25">Check the user journeys</text>
+      <text x="92" y="612" fill="#48647C" font-size="25">Deliver an actual project</text>
+      <path d="M92 644h352" stroke="#B8CDDF"/>
+    </g>
+    <g data-bounds="496 196 408 482">
+      <rect x="496" y="196" width="408" height="482" rx="24" fill="#FFFFFF"/>
+      <text x="524" y="244" fill="#18354D" font-size="30" font-weight="750">Project costing</text>
+      <rect x="524" y="278" width="352" height="148" rx="16" fill="#EAF6F2"/>
+      <rect x="546" y="302" width="98" height="98" rx="14" fill="#C8E8E0"/>
+      <path d="M562 322h66v55h-66zm0 17h66m-44-17v55m22-55v55" stroke="#18354D" stroke-width="3.5" stroke-linejoin="round"/>
+      <text x="664" y="336" fill="#29485F" font-size="25" font-weight="700">Workbook</text>
+      <text x="664" y="377" fill="#48647C" font-size="24">PDF + CSV</text>
+      <text x="524" y="482" fill="#18354D" font-size="26" font-weight="700">Use traceable inputs</text>
+      <text x="524" y="528" fill="#48647C" font-size="25">Calculate with formulas</text>
+      <text x="524" y="570" fill="#48647C" font-size="25">Compare risk scenarios</text>
+      <text x="524" y="612" fill="#48647C" font-size="25">Reconcile every total</text>
+      <path d="M524 644h352" stroke="#B8CDDF"/>
+    </g>
+    <g data-bounds="928 196 408 482">
+      <rect x="928" y="196" width="408" height="482" rx="24" fill="#FFFFFF"/>
+      <text x="956" y="244" fill="#18354D" font-size="30" font-weight="750">Launch package</text>
+      <rect x="956" y="278" width="352" height="148" rx="16" fill="#F0EDFB"/>
+      <rect x="978" y="302" width="98" height="98" rx="14" fill="#DAD6F3"/>
+      <path d="M994 321h66v48h-66zm33 48v17m-15 0h30m-36-30 12-15 12 7 17-15" stroke="#18354D" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1096" y="336" fill="#29485F" font-size="25" font-weight="700">Presentation</text>
+      <text x="1096" y="377" fill="#48647C" font-size="24">Brief + budget</text>
+      <text x="956" y="482" fill="#18354D" font-size="26" font-weight="700">Research the market</text>
+      <text x="956" y="528" fill="#48647C" font-size="25">Keep the sources visible</text>
+      <text x="956" y="570" fill="#48647C" font-size="25">Prepare editable files</text>
+      <text x="956" y="612" fill="#48647C" font-size="25">Record launch decisions</text>
+      <path d="M956 644h352" stroke="#B8CDDF"/>
+    </g>
+    <text x="64" y="746" fill="#B8DFFD" font-size="28" font-weight="700">One working environment. More than one kind of project.</text>
+    <text x="64" y="790" fill="#48647C" font-size="24">Applications · Project costings · Launch packages</text>
+  </g>
+</svg>

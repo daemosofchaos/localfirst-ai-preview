@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" fill="none" role="img" aria-labelledby="platform-title platform-desc">
+  <title id="platform-title">LocalFirst-AI model choice and project workspaces</title>
+  <desc id="platform-desc">Hosted, native and local model profiles connect to an assistant Room with a reusable role and selected tools. Separate workspaces hold application, costing and launch projects. Models and tools require compatible setup and permissions. The diagram shows product organization, not automatic delegation between assistants.</desc>
+  <defs><linearGradient id="platform-bg" x1="0" y1="0" x2="1400" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="#F2F8FD"/><stop offset="1" stop-color="#DFEDF8"/></linearGradient></defs>
+  <rect width="1400" height="820" rx="32" fill="url(#platform-bg)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="64" y="96" fill="#FFFFFF" font-size="44" font-weight="750">Your model. One working environment.</text>
+    <text x="64" y="140" fill="#48647C" font-size="26">Reusable connections, assistant roles and focused project workspaces.</text>
+    <g data-bounds="64 188 408 156">
+      <rect x="64" y="188" width="408" height="156" rx="22" fill="#FFFFFF"/>
+      <text x="92" y="229" fill="#2463A6" font-size="22" font-weight="700">HOSTED PROFILES</text>
+      <text x="92" y="272" fill="#18354D" font-size="28" font-weight="700">OpenAI or Azure</text>
+      <text x="92" y="314" fill="#48647C" font-size="24">Supported model and API route</text>
+    </g>
+    <g data-bounds="496 188 408 156">
+      <rect x="496" y="188" width="408" height="156" rx="22" fill="#FFFFFF"/>
+      <text x="524" y="229" fill="#2463A6" font-size="22" font-weight="700">NATIVE PROFILES</text>
+      <text x="524" y="272" fill="#18354D" font-size="28" font-weight="700">Claude or Gemini</text>
+      <text x="524" y="314" fill="#48647C" font-size="24">Provider-specific connections</text>
+    </g>
+    <g data-bounds="928 188 408 156">
+      <rect x="928" y="188" width="408" height="156" rx="22" fill="#FFFFFF"/>
+      <text x="956" y="229" fill="#2463A6" font-size="22" font-weight="700">LOCAL / SELF-HOSTED</text>
+      <text x="956" y="272" fill="#18354D" font-size="28" font-weight="700">Your model server</text>
+      <text x="956" y="314" fill="#48647C" font-size="24">Compatible tool-capable models</text>
+    </g>
+    <g data-bounds="64 378 1272 158">
+      <rect x="64" y="378" width="1272" height="158" rx="24" fill="#B8DFFD"/>
+      <text x="96" y="421" fill="#2463A6" font-size="22" font-weight="700">ROOM · THE ASSISTANT'S HOME</text>
+      <text x="96" y="467" fill="#18354D" font-size="32" font-weight="750">One assistant. Different project workspaces.</text>
+      <text x="96" y="510" fill="#29485F" font-size="26">Role · instructions · default model · selected tools</text>
+    </g>
+    <g data-bounds="64 570 408 170">
+      <rect x="64" y="570" width="408" height="170" rx="22" fill="#FFFFFF"/>
+      <text x="92" y="612" fill="#2463A6" font-size="22" font-weight="700">APPLICATION WORKSPACE</text>
+      <text x="92" y="658" fill="#18354D" font-size="28" font-weight="700">Implement and validate</text>
+      <text x="92" y="706" fill="#48647C" font-size="24">Source · tests · project tasks</text>
+    </g>
+    <g data-bounds="496 570 408 170">
+      <rect x="496" y="570" width="408" height="170" rx="22" fill="#FFFFFF"/>
+      <text x="524" y="612" fill="#2463A6" font-size="22" font-weight="700">COSTING WORKSPACE</text>
+      <text x="524" y="658" fill="#18354D" font-size="28" font-weight="700">Calculate and reconcile</text>
+      <text x="524" y="706" fill="#48647C" font-size="24">Inputs · formulas · scenarios</text>
+    </g>
+    <g data-bounds="928 570 408 170">
+      <rect x="928" y="570" width="408" height="170" rx="22" fill="#FFFFFF"/>
+      <text x="956" y="612" fill="#2463A6" font-size="22" font-weight="700">LAUNCH WORKSPACE</text>
+      <text x="956" y="658" fill="#18354D" font-size="28" font-weight="700">Research and deliver</text>
+      <text x="956" y="706" fill="#48647C" font-size="24">Sources · deck · launch tasks</text>
+    </g>
+    <text x="64" y="790" fill="#48647C" font-size="24">Chat and Utility can share one profile. Add other capabilities when needed.</text>
+  </g>
+</svg>

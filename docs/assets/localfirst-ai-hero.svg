@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">LocalFirst-AI — your AI assistants, your workspace</title>
+<desc id="desc">A project brief connects to an assistant workspace holding notes, tasks, sources and editable deliverables.</desc>
+<defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#F2F8FD"/><stop offset="1" stop-color="#DFEDF8"/></linearGradient><linearGradient id="accent" x2="1" y2="1"><stop stop-color="#2463A6"/><stop offset="1" stop-color="#438FC4"/></linearGradient></defs>
+<rect width="1400" height="820" rx="32" fill="url(#sky)"/>
+<circle cx="1310" cy="20" r="310" fill="#B8DFFD" opacity=".35"/><circle cx="1040" cy="840" r="260" fill="#DAD6F3" opacity=".35"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<rect x="64" y="64" width="80" height="80" rx="19" fill="url(#accent)"/>
+<path d="M85 86v36h38v-9H94V86Z" fill="#FFFFFF"/><rect x="100" y="86" width="23" height="9" rx="2" fill="#DDF0FE"/><rect x="100" y="100" width="17" height="8" rx="2" fill="#B8DFFD"/>
+<text x="164" y="116" fill="#18354D" font-size="34" font-weight="700">LocalFirst-AI</text>
+<text x="64" y="240" fill="#18354D" font-size="54" font-weight="700">Make room</text>
+<text x="64" y="310" fill="#2463A6" font-size="54" font-weight="700">for good work.</text>
+<text x="64" y="384" fill="#48647C" font-size="26">Your AI assistants. Your workspace.</text>
+<text x="64" y="426" fill="#48647C" font-size="26">Local first.</text>
+<rect x="64" y="486" width="570" height="180" rx="24" fill="#FFFFFF" stroke="#CFDFED"/>
+<text x="96" y="534" fill="#2463A6" font-size="24" font-weight="700">FROM A CLEAR BRIEF</text>
+<text x="96" y="581" fill="#18354D" font-size="26">Build it. Check it. Keep the result.</text>
+<text x="96" y="627" fill="#48647C" font-size="24">Your model, tools and chosen access.</text>
+<path d="M650 534h56m-16-16 16 16-16 16" stroke="#3479BA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="738" y="158" width="598" height="546" rx="30" fill="#FFFFFF" stroke="#B8CDDF"/>
+<rect x="738" y="158" width="598" height="88" rx="30" fill="#2463A6"/><rect x="738" y="202" width="598" height="44" fill="#2463A6"/>
+<text x="774" y="215" fill="#FFFFFF" font-size="28" font-weight="700">One project. Everything together.</text>
+<g fill="#EFF6FC" stroke="#CFDFED"><rect x="774" y="278" width="250" height="146" rx="20"/><rect x="1050" y="278" width="250" height="146" rx="20"/><rect x="774" y="450" width="526" height="204" rx="20"/></g>
+<text x="800" y="320" fill="#2463A6" font-size="22" font-weight="700">NOTES + SOURCES</text><text x="800" y="363" fill="#18354D" font-size="24">Decisions you keep</text><text x="800" y="399" fill="#48647C" font-size="21">Evidence, not guesswork</text>
+<text x="1076" y="320" fill="#6554A4" font-size="22" font-weight="700">TASKS + SKILLS</text><text x="1076" y="363" fill="#18354D" font-size="24">A way forward</text><text x="1076" y="399" fill="#48647C" font-size="21">Reusable methods</text>
+<text x="800" y="496" fill="#2463A6" font-size="22" font-weight="700">EDITABLE DELIVERABLES</text>
+<text x="800" y="544" fill="#18354D" font-size="28" font-weight="600">Code. Documents. Clear answers.</text>
+<text x="800" y="591" fill="#48647C" font-size="23">One assistant—or a team of specialists.</text>
+<text x="800" y="626" fill="#48647C" font-size="23">Keep sources and results with the project.</text>
+<text x="64" y="764" fill="#48647C" font-size="22">Hosted or local models · Practical tools · Saved project work</text>
+</g></svg>

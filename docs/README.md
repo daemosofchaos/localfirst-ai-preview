@@ -1,0 +1,39 @@
+# LocalFirst-AI documentation
+
+Begin with one text model and add capabilities as you need them.
+
+## New to LocalFirst-AI?
+
+- [Install and get started](../GETTING-STARTED.md): choose a package, verify it, connect a model and save your first note and tasks.
+- [Hosted and custom model setup](model-setup.md): OpenAI, Claude, Gemini, Azure OpenAI and compatible endpoints.
+- [Local model setup](local-models.md): LM Studio, Ollama, KAT-Coder and connecting another device to your server.
+- [Independent assistants](independent-assistants.md): delegate a complete project, choose a capable model and define the deliverables.
+- [Supervisor workspaces](supervisor-workspaces.md): coordinate workers, build nested teams, review results and manage shared limits.
+- [Practical use cases](use-cases.md): complete applications, project costings and launch packages, alongside smaller everyday tasks.
+
+## Use the app
+
+| Guide | What you will find |
+|---|---|
+| [Rooms, workspaces and tools](workspaces-and-tools.md) | Project organization, templates, model choices, Direct/Gateway routes and folder access. |
+| [Work delegation](supervisor-workspaces.md) | First-team setup, example briefs, shared allowances, pause/resume, cancellation and recovery. |
+| [Skills](skills.md) | reusable methods, workflow capture, version choices and automatic or requested guidance. |
+| [Documents, visuals and exports](documents-and-exports.md) | HTML-to-PDF, tables and charts, original file saves and exact conversation exports. |
+| [Images and voice](images-and-voice.md) | Separate capability profiles, hosted/self-hosted image setup and voice options. |
+| [Troubleshooting](troubleshooting.md) | Common installation, connection, model, tool and document problems. |
+
+## Try the samples
+
+- [Project costing brief](examples/project-costing/brief.md), [labour rates](examples/project-costing/labour.csv) and [materials](examples/project-costing/materials.csv): a complete input pack for the [costing workbook and PDF example](use-cases.md#produce-a-complete-project-costing).
+- [Monthly sales CSV](examples/monthly-sales.csv): six rows of sample data for the [CSV/chart example](use-cases.md#explore-a-csv-and-create-a-chart).
+- [Project brief HTML](examples/project-brief.html): a static, editable starting point for a [Windows PDF report](use-cases.md#create-a-client-ready-pdf).
+
+Download or save a sample locally before attaching it or asking LocalFirst-AI to read it. Samples contain no credentials or customer data.
+
+## Before using real data or paid services
+
+[Privacy](../PRIVACY.md) · [Security](../SECURITY.md) · [Provider billing](../TOKEN-USAGE-AND-BILLING.md) · [Preview scope](../PREVIEW.md) · [Binary application licence](../LICENSE.md)
+
+For help, see [Support](../SUPPORT.md). Read the [V1.0 overview](../RELEASE.md) or browse [GitHub Releases](https://github.com/daemosofchaos/localfirst-ai-preview/releases).
+
+[Back to the preview homepage](../README.md)

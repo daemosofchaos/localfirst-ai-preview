@@ -1,0 +1,92 @@
+name: Preview feedback
+description: Share structured feedback about a LocalFirst-AI workflow or experience.
+title: "[Feedback]: "
+labels:
+  - feedback
+  - preview
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Useful feedback describes a real workflow, what helped, and what prevented you from completing it.
+
+        Keep all provider credentials, private data, confidential prompts, and sensitive files out of this report.
+
+  - type: input
+    id: version
+    attributes:
+      label: LocalFirst-AI version
+      placeholder: 1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: workflow
+    attributes:
+      label: Workflow
+      options:
+        - First-run setup
+        - General assistant or planning
+        - Research and grounding
+        - Software development
+        - Documents or reports
+        - Spreadsheets
+        - Presentations
+        - Image generation or editing
+        - Voice or transcription
+        - Workspaces, notes and tasks
+        - Inline visuals
+        - Saving messages or files
+        - Local desktop workflow
+        - Plugins or MCP
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: What were you trying to accomplish?
+    validations:
+      required: true
+
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked well?
+    validations:
+      required: true
+
+  - type: textarea
+    id: friction
+    attributes:
+      label: What was difficult or stopped you?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: return
+    attributes:
+      label: Would you use LocalFirst-AI again for this workflow?
+      options:
+        - Yes
+        - Maybe, with improvements
+        - No
+        - Not sure yet
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What single improvement would matter most?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I removed credentials and all sensitive or confidential information.
+          required: true

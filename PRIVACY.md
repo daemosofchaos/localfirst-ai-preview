@@ -1,0 +1,96 @@
+# Privacy notes
+
+LocalFirst-AI is designed as a local-first application. Local-first means that its project structure and application data are primarily kept on your device; it does not mean every configured workflow is offline.
+
+## Data stored locally
+
+Depending on configuration and use, LocalFirst-AI may store information such as:
+
+- Rooms and assistant identities;
+- Workspace instructions, conversations, notes, tasks, files, and generated artifacts;
+- model-profile configuration;
+- application settings and local databases;
+- memory or embedding data;
+- usage records reported by supported providers;
+- diagnostic information and logs.
+
+Secure provider credentials are handled separately from ordinary portable application data and are excluded from normal backup payloads where applicable.
+
+Anyone with access to the device, application data directory, exported files, or unprotected backups may be able to read the data stored there. Use operating-system account protection, device encryption, appropriate file permissions, and secure backups.
+
+## Data sent to configured services
+
+LocalFirst-AI sends information to providers and services that you configure or explicitly use. Depending on the workflow, this may include:
+
+- assistant and Workspace instructions;
+- prompts and conversation context;
+- notes, tasks, attachments, or file content included in model context;
+- tool arguments and tool results needed to continue the work;
+- search queries and retrieved web content;
+- text submitted for embeddings or memory processing;
+- image prompts, images, audio, or transcripts;
+- content sent to MCP servers, plugins, websites, or other external services.
+
+A model provider may receive the context needed to choose a tool and interpret its result even when the tool itself runs locally. Review the visible request context, tool access, and provider policy before using sensitive information.
+
+External services have their own privacy policies, retention rules, regional processing arrangements, logging, and account controls. LocalFirst-AI cannot override those policies.
+
+## Model profiles and routing
+
+Different capabilities may use different profiles or providers. Chat, Utility, embeddings, image generation, realtime interaction, speech output and transcription may therefore send data to different services. Brave web grounding is configured separately and can receive search queries; retrieved content may also be included in model requests.
+
+Review every configured profile and integration, not only the main assistant model. A Room or Workspace override can also change which provider receives future requests. See [Model setup](docs/model-setup.md) and [Local models](docs/local-models.md) for example configurations.
+
+## Tools, MCP servers, and plugins
+
+### Skills and reusable guidance
+
+Your Skill drafts, instructions and references are stored with local application data. Exporting a Skill creates a shareable file; review its contents for credentials and confidential information before sending it to anyone.
+
+Choosing and using Skills may send your question, Skill names and descriptions, and the instructions or references needed for the task to your configured models. Review all connected providers, including supporting models, if this information must stay on your device. A local main Chat model does not make every part of a workflow local.
+
+When you choose **Save this workflow as a Skill**, check the editable preview before saving or sharing it. Automatic cleanup can help remove sensitive details, but it does not replace your review. [Skills guide](docs/skills.md).
+
+### Executable integrations
+
+Built-in tools, MCP servers, and plugins can have different data access and network behaviour.
+
+- Enable only the tool sources and operations required for the job.
+- Treat MCP servers and plugin packages as executable integrations.
+- Review their publisher, configuration, requested permissions, and network destinations.
+- Do not assume an extension follows LocalFirst-AI's local-first storage model.
+
+Room and Workspace policy helps limit availability, but it does not make an external service private or trusted.
+
+## Device permissions
+
+On Android, camera, microphone, foreground location, and calendar access are requested when their corresponding features are invoked. Denying a permission prevents or limits that feature.
+
+On desktop platforms, local file, process, application, and computer-use capabilities depend on the access granted to LocalFirst-AI and the tools you enable.
+
+## Product analytics and diagnostics
+
+The current preview does not intentionally send product-usage analytics to a LocalFirst-AI-operated cloud service.
+
+LocalFirst-AI may produce local logs and diagnostics. Configured model providers, websites, MCP servers, plugins, and other external services receive requests required for the functions you use and may perform their own analytics or logging.
+
+Website requests may be recorded by the hosting, CDN and security providers used for the public site, under their own privacy and retention policies. If Cloudflare is used, its traffic and security services may process website requests. Website traffic is separate from application project data; owning a domain does not by itself establish a particular hosting or privacy arrangement.
+
+## Public issue reports
+
+GitHub issues, pull requests, and discussions are public. Do not include:
+
+- API keys, tokens, passwords, or credentials;
+- private endpoint URLs;
+- confidential prompts, instructions, or conversations;
+- customer, employee, or personal data;
+- proprietary source code;
+- sensitive paths, logs, screenshots, documents, tasks, or notes.
+
+Create a minimal reproduction using non-sensitive data wherever possible.
+
+## Your choices
+
+You decide which providers, profiles, extensions, files, tools, and permissions an assistant can use. Begin with limited access and expand deliberately.
+
+If specific content must not leave the device, do not place it in a workflow connected to a remote provider, MCP server, plugin, website, or other external service.
